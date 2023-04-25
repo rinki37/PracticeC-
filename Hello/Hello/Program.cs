@@ -1,4 +1,4 @@
-﻿                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   using System;
+﻿                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +41,14 @@ namespace Hello
             // Console.WriteLine("You have entered : "+ str1); // Printing the user input to the console          
 
 
+            // taking integer user input 
+            // Console.WriteLine("Enter your name");
+            // string name=  Console.ReadLine();
+            // Console.WriteLine("Enter your age ");
+            // int age = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Hi "+ name + " your age is"+ age);
+
+
 
             // type casting - implicit and explicit
             // 1. Implicit type casting
@@ -54,15 +62,108 @@ namespace Hello
 
 
 
-            //
+
+            // Using math class
+            // int x = 4, y = 7;
+            // int res = Math.Max(x, y);
+            // Console.WriteLine(res);
+
+
+
+            // string interpolation- also used for concatenation
+            // string firstName = "John";
+            // string lastName = "Doe";
+            // string name = $"My full name is: {firstName} {lastName}";
+            // Console.WriteLine(name);
+
+
+            // accessing string using index
+            // string myString = "Hello";
+            // Console.WriteLine(myString[1]);
+
+
+
+            // boolean data type use
+            // int myAge = 25;
+            // int votingAge = 18;
+            // Console.WriteLine(myAge >= votingAge);
+
+
+
+            // if else 
+            // int time = 22;
+            // if (time < 10)
+            // {
+            //     Console.WriteLine("Good morning.");
+            // }
+            // else if (time < 20)
+            // {
+            //     Console.WriteLine("Good day.");
+            // }
+            // else
+            // { 
+            //     Console.WriteLine("Good evening.");
+            // }
+
+
+
+            // using ternary operator
+            // int time = 20;
+            // string result = (time < 18) ? "Good day." : "Good evening.";
+            // Console.WriteLine(result);
+
+
+
+            // for each loop
+            // string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            // foreach (string i in cars)
+            // {
+            //    Console.WriteLine(i);
+            // }
+
+
+
+            // creating array and printing it
+            // string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            // for (int i = 0; i < cars.Length; i++)
+            // {
+            //    Console.WriteLine(cars[i]);
+            // }
+
+
+
+            // Sort a string array
+            // string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            // Array.Sort(cars);
+            // foreach (string i in cars)
+            // {
+            //    Console.WriteLine(i);
+            // }
+
+
+
+            // sort an integer array
+            // int[] myNumbers = {5, 1, 8, 9};
+            // Array.Sort(myNumbers);
+            // foreach (int i in myNumbers)
+            // {
+            //    Console.WriteLine(i);
+            // }
 
 
 
 
+        
+            // system.linq namespace
+            //int[] myNumbers = { 5, 1, 8, 9 };
+            //Console.WriteLine(myNumbers.Max());  // returns the largest value
+            //Console.WriteLine(myNumbers.Min());  // returns the smallest value
+                 
 
-            
-            Console.Read();
+
+    Console.ReadKey();
 
         }
     }
 }
+                                                                                                                                                                       
