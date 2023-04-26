@@ -155,13 +155,26 @@ namespace Hello
 
         
             // system.linq namespace
-            //int[] myNumbers = { 5, 1, 8, 9 };
-            //Console.WriteLine(myNumbers.Max());  // returns the largest value
-            //Console.WriteLine(myNumbers.Min());  // returns the smallest value
-                 
+            // int[] myNumbers = { 5, 1, 8, 9 };
+            // Console.WriteLine(myNumbers.Max());  // returns the largest value
+            // Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            
+            
+           // methods with arguments
+           // void MyMethod(string fname)
+           // {
+           //     Console.WriteLine(fname + " Refsnes");
+           // }
+
+           // {
+           //     MyMethod("Liam");
+           //     MyMethod("Jenny");
+           //     MyMethod("Anja");
+           // }
 
 
-    Console.ReadKey();
+
+          Console.ReadKey();
 
         }
     }
